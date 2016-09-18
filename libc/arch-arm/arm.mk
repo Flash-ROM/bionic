@@ -14,6 +14,7 @@ libc_bionic_src_files_exclude_arm += \
     bionic/__memset_chk.cpp \
 
 libc_openbsd_src_files_exclude_arm += \
+    upstream-openbsd/lib/libc/string/memchr.c \
     upstream-openbsd/lib/libc/string/strcpy.c \
 
 #
