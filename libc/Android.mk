@@ -1137,7 +1137,7 @@ include $(BUILD_STATIC_LIBRARY)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE := libc_ndk
-LOCAL_CLANG := $(use_clang)
+LOCAL_CLANG := false
 LOCAL_ASFLAGS := $(LOCAL_CFLAGS)
 LOCAL_CONLYFLAGS := $(libc_common_conlyflags)
 LOCAL_CFLAGS := $(libc_common_cflags) -fvisibility=hidden -O0
